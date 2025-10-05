@@ -3,6 +3,7 @@ import Image from "next/image";
 import facebook from '../../public/1.png'
 import instagram from '../../public/2.png'
 import twitter from '../../public/3.png'
+import youtube from '../../public/4.png'
 
 
 function Footer() {
@@ -14,6 +15,7 @@ function Footer() {
       <Image className='cursor-pointer opacity-60' src={facebook} height={15}  width={15} alt={"Facebook"}></Image>
       <Image className='cursor-pointer opacity-60' src={instagram} height={15}  width={15} alt={"Instagram"}></Image>
       <Image className='cursor-pointer opacity-60' src={twitter} height={15}  width={15} alt={"Twitter"}></Image>
+      <Image className='cursor-pointer opacity-60' src={youtube} height={15}  width={15} alt={"Youtube"}></Image>
     </div>
   </div>;
 }
